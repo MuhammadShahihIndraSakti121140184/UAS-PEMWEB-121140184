@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 5vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.input-control {
+    margin-bottom: 20px;
+}
+
+.input-control input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input-control.success input {
+    border-color: #2ecc71;
+}
+
+.input-control.error input {
+    border-color: #e74c3c;
+}
+
+.input-control .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.action-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #3498db;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.add-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cookie-notice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#cookie-notice button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+.input-control {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#error-message {
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .input-control input {
+        font-size: 12px;
+    }
+
+    .action-buttons a {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    .add-button {
+        padding: 8px;
+    }
+}
